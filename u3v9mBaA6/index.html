@@ -1,137 +1,207 @@
+<!DOCTYPE html>
 <html>
   <head>
-  <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" >
+
 <title>Docker | Atomic</title>
-<link rel="shortcut icon" href="https://14141004.xyz/favicon.ico?v=1673359460180">
-<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<meta name="description" content="时间不说话，却回答了所有问题">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="shortcut icon" href="https://14141004.xyz/favicon.ico?v=1673361490851">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://14141004.xyz/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="Docker | Atomic - Atom Feed" href="https://14141004.xyz/atom.xml">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
 
+<script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.1/build/highlight.min.js"></script>
 
-  <meta name="description" content="时间不说话，却回答了所有问题" />
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
   </head>
   <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="https://14141004.xyz">
-  <img class="avatar" src="https://14141004.xyz/images/avatar.png?v=1673359460180" alt="">
-  </a>
-  <h1 class="site-title">
-    Atomic
-  </h1>
-  <p class="site-description">
-    时间不说话，却回答了所有问题
-  </p>
-  <div class="menu-container">
-    
-      
-        <a href="/" class="menu">
-          首页
-        </a>
-      
-    
-      
-        <a href="/archives" class="menu">
-          归档
-        </a>
-      
-    
-      
-        <a href="/tags" class="menu">
-          标签
-        </a>
-      
-    
-      
-        <a href="/post/about" class="menu">
-          关于
-        </a>
-      
-    
-      
-        <a href="https://el5.net/explore" class="menu">
-          象吾
-        </a>
-      
-    
-      
-        <a href="https://skress.xyz/public" class="menu">
-          象区立咒术高专
-        </a>
-      
-    
+    <nav class="navbar border fixed split-nav">
+  <div class="nav-brand">
+    <h3><a href="https://14141004.xyz">Atomic</a></h3>
   </div>
-  <div class="social-container">
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-  </div>
-</div>
-
-        <div class="current-tag-container">
-            <h2 class="title">
-                标签：# Docker
-            </h2> 
-        </div>
-        <div class="post-container">
-  
-    <article class="post">
-      <a href="https://14141004.xyz/学习Docker/">
-        <h2 class="post-title">学习Docker二三事</h2>
-      </a>
-      <div class="post-info">
-        <span>
-          2023-01-08
-        </span>
-        <span>
-          1 min read
-        </span>
+  <div class="collapsible">
+    <input id="collapsible1" type="checkbox" name="collapsible1">
+    <button>
+      <label for="collapsible1">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </label>
+    </button>
+    <div class="collapsible-body">
+      <ul class="inline">
         
-          <a href="https://14141004.xyz/u3v9mBaA6/" class="post-tag">
-            # Docker
-          </a>
+          <li>
+            
+              <a href="/" class="menu">
+                首页
+              </a>
+            
+          </li>
         
-          <a href="https://14141004.xyz/xpP1ub4X7c/" class="post-tag">
-            # Linux
-          </a>
+          <li>
+            
+              <a href="/archives" class="menu">
+                归档
+              </a>
+            
+          </li>
         
-      </div>
-      
-        <a href="https://14141004.xyz/学习Docker/" class="post-feature-image" style="background-image: url('https://14141004.xyz/post-images/学习Docker.jpg')">
-        </a>
-      
-      <div class="post-abstract">
+          <li>
+            
+              <a href="/tags" class="menu">
+                标签
+              </a>
+            
+          </li>
         
-      </div>
-    </article>
-  
-</div>
-
-        <div class="pagination-container">
-  
-  
-</div>
-
-        <div class="site-footer">
-  
-  <a class="rss" href="https://14141004.xyz/atom.xml" target="_blank">
-    <i class="ri-rss-line"></i> RSS
-  </a>
-</div>
-
-      </div>
+          <li>
+            
+              <a href="/post/about" class="menu">
+                关于
+              </a>
+            
+          </li>
+        
+          <li>
+            
+              <a href="https://el5.net/explore" class="menu">
+                象吾
+              </a>
+            
+          </li>
+        
+          <li>
+            
+              <a href="https://skress.xyz/public" class="menu">
+                象区立咒术高专
+              </a>
+            
+          </li>
+        
+      </ul>
     </div>
+  </div>
+</nav>
+
+    <div id="top" class="row site">
+      <div class="sm-12 md-8 col">
+        <div class="paper">
+          <h2 class="current-tag">标签: Docker</h2>
+          
+  <article class="article">
+    <h2 class="article-title">
+      <a href="https://14141004.xyz/学习Docker/">学习Docker二三事</a>
+    </h2>
+    <p class="article-meta">
+      2023-01-08
+      
+        <a href="https://14141004.xyz/u3v9mBaA6/" class="badge warning">
+          Docker
+        </a>
+      
+        <a href="https://14141004.xyz/xpP1ub4X7c/" class="badge secondary">
+          Linux
+        </a>
+      
+    </p>
+    <p class="text-lead">
+      
+    </p>
+    <div class="row">
+      <a href="https://14141004.xyz/学习Docker/" class="readmore-link">
+        <button>
+          Read More
+        </button>
+      </a>
+    </div>
+  </article>
+
+
+        </div>
+        <div class="row flex-edges">
+  
+  
+</div>
+
+      </div>
+      <div class="sm-12 md-4 col sidebar">
+  <div class="paper info-container">
+    <img src="https://14141004.xyz/images/avatar.png?v=1673361490851" class="no-responsive avatar">
+    <div class="text-muted">时间不说话，却回答了所有问题</div>
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+  </div>
+  <div class="paper">
+    <div class="sidebar-title">
+      最新文章
+    </div>
+    <div class="row">
+      <ul>
+        
+          
+            <li>
+              <a href="https://14141004.xyz/学习Docker/">学习Docker二三事</a>
+            </li>
+          
+        
+      </ul>
+    </div>
+  </div>
+  <div class="paper">
+    <div class="sidebar-title">
+      标签列表
+    </div>
+    <div class="row">
+      
+        <a href="https://14141004.xyz/u3v9mBaA6/" class="badge success">
+          Docker
+        </a>
+      
+        <a href="https://14141004.xyz/xpP1ub4X7c/" class="badge success">
+          Linux
+        </a>
+      
+    </div>
+  </div>
+  <div class="paper">
+     | <a class="rss" href="https://14141004.xyz/atom.xml" target="_blank">RSS</a>
+  </div>
+</div>
+
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+<script type="application/javascript">
+
+AOS.init();
+
+hljs.initHighlightingOnLoad()
+
+</script>
+
+
+
+
   </body>
 </html>
