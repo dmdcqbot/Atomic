@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://14141004.xyz/sitemap.xml
